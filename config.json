@@ -1,0 +1,14 @@
+{
+    "taskdb": "mongodb+taskdb://127.0.0.1:27017/pyspider_taskdb",
+    "projectdb": "mongodb+projectdb://127.0.0.1:27017/pyspider_projectdb",
+    "resultdb": "mongodb+resultdb://127.0.0.1:27017/pyspider_resultdb",
+    "webui": {
+        "port": 5000
+    },
+    "result_worker": {
+        "result_cls": "my_result_worker.MyResultWorker"
+      },
+    "phantomjs": {
+        "args": ["--ignore-ssl-errors=true"]
+  }
+}
